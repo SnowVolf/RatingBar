@@ -3,7 +3,7 @@ package com.iarcuschin.simpletraingbarsample;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.iarcuschin.simpletraingbar.R;
+import com.iarcuschin.simpletraingbarsample.R;
 
 public class MainActivity extends AppCompatActivity {
 

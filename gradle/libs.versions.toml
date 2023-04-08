@@ -6,7 +6,7 @@ espresso-core = "3.5.1"
 appcompat = "1.6.1"
 material = "1.8.0"
 constraintlayout = "2.1.4"
-com-android-library = "8.1.0-alpha11"
+com-android-library = "7.4.2"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
