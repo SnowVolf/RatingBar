@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
 
 android {
     namespace 'com.iarcuschin.simpleratingbar'
@@ -29,18 +28,4 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.androidx.test.ext.junit
     androidTestImplementation libs.espresso.core
-}
-
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = 'ru.svolf'
-            artifactId = 'ratingbar'
-            version = "1.0.2"
-
-            pom {
-                description = 'Rating bar'
-            }
-        }
-    }
 }
